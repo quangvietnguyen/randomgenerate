@@ -41,7 +41,7 @@ const dailygrand = () => {
         count++;
     }
     winning.sort((a,b) => a-b);
-    winning.push(getRandomInt(7));
+    winning.push(getRandomInt(1,7));
     return winning;
 }
 
