@@ -41,7 +41,7 @@ const dailygrand = () => {
         count++;
     }
     winning.sort((a,b) => a-b);
-    winning.push(getRandomInt(1,7));
+    winning.push(lotto(1,7));
     return winning;
 }
 
@@ -54,7 +54,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/max.txt',lotto(7,50) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'lotto649') || (name === 'l') || (name === 'ontario49') || (name === 'o')) {
@@ -62,7 +62,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/649.txt',lotto(6,49) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailygrand') || (name === 'g')) {
@@ -70,7 +70,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/grand.txt',dailygrand() + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailykeno2') || (name === 'd2')) {
@@ -78,7 +78,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/keno2.txt',lotto(2,15) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailykeno3') || (name === 'd3')) {
@@ -86,7 +86,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/keno3.txt',lotto(3,15) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailykeno4') || (name === 'd4')) {
@@ -94,7 +94,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/keno4.txt',lotto(4,20) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailykeno5') || (name === 'd5')) {
@@ -102,7 +102,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/keno5.txt',lotto(5,25) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailykeno6') || (name === 'd6')) {
@@ -110,7 +110,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/keno6.txt',lotto(6,28) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailykeno7') || (name === 'd7')) {
@@ -118,7 +118,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/keno7.txt',lotto(7,30) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailykeno8') || (name === 'd8')) {
@@ -126,7 +126,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/keno8.txt',lotto(8,35) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailykeno9') || (name === 'd9')) {
@@ -134,7 +134,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/keno9.txt',lotto(9,37) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else if ((name === 'dailykeno10') || (name === 'd10')) {
@@ -142,7 +142,7 @@ readline.question('What kind of Lotto?\n(lottomax(m)/lotto649(l)/ontario49(o)/da
                 fs.appendFile('results/keno10.txt',lotto(10,40) + " \n" + Date().toString() + "\n",(err) => {
                     if (err) throw err;
                     console.clear();
-                    console.log(Date());
+                    console.log(Date(),"\nProgram is running...\nPress ^ + c to exit the program!");
                 })
             },time);
         } else {
